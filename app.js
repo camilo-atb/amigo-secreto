@@ -58,7 +58,7 @@ function sortearAmigo(){
         
         // Mostrar Ganador:
         let textoGanador = document.querySelector(".section-title"); 
-        textoGanador.innerHTML = `LA PERSONA GANADORA ES: ${(nombres[indiceAleatorio]).toUpperCase()}`
+        textoGanador.innerHTML = `TU AMIGO SECRETO ES: ${(nombres[indiceAleatorio]).toUpperCase()}`
         
         // Llamar la Función de Celebración 
         celebrarGanador();   
